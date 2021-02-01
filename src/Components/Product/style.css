@@ -1,0 +1,36 @@
+.Product {
+  margin: 10px;
+}
+
+.Product__Image {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.Product__Name {
+  color: #035bbf;
+}
+
+.Product__Button {
+  border: 0;
+  outline: none;
+  background: linear-gradient(to bottom, #4e87c9, #035bbf);
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.Product__Button:hover {
+  background: linear-gradient(to bottom, #90bbec, #035bbf);
+}
+
+.Product__Button--Remove {
+  background: linear-gradient(to bottom, #ec9b90, #bf0303);
+}
+
+.Product__Button--Remove:hover {
+  background: linear-gradient(to bottom, #ffc0b8, #cc0a0a);
+}
